@@ -1,7 +1,5 @@
 package cse360assignment02;
 
-package cse360assignment02;
-
 public class AddingMachine {
   private int total;
   
@@ -14,15 +12,22 @@ public class AddingMachine {
   }
   
   public void add (int value) {
+	  value = value;
   }
 
   public void subtract (int value) {
+	  value = value*(-1);
   }
 
   public String toString () {
-    return "";
+    return " ";
   }
 
   public void clear() {
   }
+  
+
+   
+  
+  
 }
